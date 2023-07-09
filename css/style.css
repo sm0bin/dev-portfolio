@@ -27,7 +27,6 @@ nav ul {
 }
 
 nav li {
-    /* margin: 0 20px; */
     font-size: 1.25rem;
 }
 
@@ -46,10 +45,6 @@ nav li {
 
 
 .hero-box {
-
-    /* padding: 0 20px; */
-    /* padding: 0 0 0 200px; */
-    /* padding-left: 200px; */
     padding: 50px 30px 0 230px;
     display: flex;
     justify-content: space-between;
@@ -57,7 +52,6 @@ nav li {
 
 .hero-content {
     padding: 130px 0;
-    /* width: 70%; */
 }
 
 .hero-subheading {
@@ -75,9 +69,7 @@ nav li {
 }
 
 .hero-p {
-    /* font-size: 1.25rem; */
     margin-bottom: 20px;
-    /* line-height: 1.5; */
 }
 
 p {
@@ -113,18 +105,6 @@ input[type="submit"] {
     background-color: #FD6E0A;
     color: #FFF8F3;
 }
-
-/* .hero-box {
-    background-image: url(../img/hero.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
-
 
 /* Main Section */
 main {
@@ -198,18 +178,17 @@ main {
     font-size: 1rem;
 }
 
-.summery {
+.summery-details {
     display: flex;
     gap: 70px;
+
 }
 
-/* .summery-part{
-    width: 50%;
-} */
 .summery-part-heading {
     color: #474747;
     font-size: 30px;
     font-weight: 700;
+    margin-top: 80px;
     margin-bottom: 30px;
 }
 
@@ -228,7 +207,6 @@ main {
 }
 
 hr {
-    /* width: inherit; */
     height: 1px;
     background-color: #d1d1d1;
     border: none;
@@ -239,7 +217,6 @@ hr {
     display: block;
     margin: 20px auto;
 }
-
 
 
 /* Footer Section */
@@ -267,12 +244,6 @@ textarea {
     padding: 18px 30px;
     border: none;
 }
-
-
-/* input[type="submit"] {
-    padding: 20px 40px;
-    width: auto;
-} */
 
 footer h2 {
     color: #181818;
