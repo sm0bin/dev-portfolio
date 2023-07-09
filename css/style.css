@@ -1,0 +1,124 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header Section */
+
+header {
+
+    padding: 50px 200px 0 200px;
+    background-image: url('../img/header_bg.png'), url('../img/developer.png');
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-color: #FFF8F3;
+}
+
+.nav-bar {
+    /* background-color: #FFF8F3; */
+    /* border-bottom: 1px solid #eee; */
+    /* box-shadow: 0 1px 3px rgba(0, 0, 0, .1); */
+    /* position: absolute; */
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 20px;
+    font-size: 1.25rem;
+}
+
+
+
+.logo-text {
+    font-weight: 700;
+    font-size: 3rem;
+    color: #181818;
+}
+
+.logo-text span {
+    color: #FD6E0A;
+    font-weight: 700;
+}
+
+
+.hero-box {
+
+    /* padding: 0 20px; */
+    /* padding: 0 0 0 200px; */
+    /* padding-left: 200px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-content {
+    padding: 130px 0;
+    width: 50%;
+}
+
+.hero-subheading {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero-heading {
+    font-size: 5.25rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+button {
+    background-color: #FD6E0A;
+    border: none;
+    color: white;
+    padding: 20px 36px;
+    border-radius: 4px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-right: 24px;
+}
+
+.btn-1 {
+    padding: 20px;
+}
+
+/* .hero-box {
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+/* Main Section */
+main {
+    min-height: 100vh;
+}
+
+
+
+/* Footer Section */
+footer p {
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    background-color: black;
+}
