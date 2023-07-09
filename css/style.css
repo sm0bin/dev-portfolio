@@ -6,7 +6,7 @@
 
 header {
 
-    padding: 50px 200px 0 200px;
+    padding: 50px 230px 0 230px;
     background-image: url('../img/header_bg.png'), url('../img/developer.png');
     background-position: right bottom, left top;
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@ nav li {
 
 .hero-content {
     padding: 130px 0;
-    width: 50%;
+    /* width: 70%; */
 }
 
 .hero-subheading {
@@ -76,9 +76,15 @@ nav li {
 }
 
 .hero-p {
-    font-size: 1.25rem;
+    /* font-size: 1.25rem; */
     margin-bottom: 20px;
-    line-height: 1.5;
+    /* line-height: 1.5; */
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: #757575;
 }
 
 button {
@@ -86,10 +92,10 @@ button {
     border: none;
     color: white;
     padding: 20px 36px;
-    border-radius: 4px;
+    border-radius: 5px;
     font-size: 1.25rem;
     font-weight: 700;
-    margin-right: 24px;
+    margin-right: 30px;
 }
 
 .btn-1 {
@@ -111,14 +117,160 @@ button {
 /* Main Section */
 main {
     min-height: 100vh;
+    margin: 0 230px;
+}
+
+.about {
+    margin: 130px 0;
+    padding: 130px 160px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.sec-h1 {
+    color: #181818;
+    text-align: center;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.about-info {
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.about-info p {
+    /* font-size: 1.25rem; */
+    color: #757575;
+}
+
+.about-info span {
+    display: block;
+    font-weight: 700;
+    color: #474747;
+}
+
+.what-i-do {
+
+    margin: 130px 0;
+}
+
+.what-i-do-text p {
+    padding: 0 50px 50px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 24px;
+}
+
+.what-i-do-card {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px #0000000f;
+}
+
+.what-i-do-card h2 {
+    margin: 30px 0 20px;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.what-i-do-card p {
+    font-size: 1rem;
+}
+
+.summery {
+    display: flex;
+    gap: 70px;
+}
+
+/* .summery-part{
+    width: 50%;
+} */
+.summery-part-heading {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.degree h2 {
+    color: #474747;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.degree h3 {
+    color: #757575;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+hr {
+    /* width: inherit; */
+    height: 1px;
+    background-color: #d1d1d1;
+    border: none;
+    margin: 30px 0;
+}
+
+.btn-down {
+    display: block;
+    margin: 20px auto;
 }
 
 
 
 /* Footer Section */
+footer {
+    padding: 130px 230px;
+    background-color: #FFF8F3;
+}
+
+.footer-box {
+    display: flex;
+    gap: 120px;
+}
+
+.connect {
+    width: 50%;
+}
+
+.massage {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+input,
+textarea {
+    width: 100%;
+    font-size: 1rem;
+    background-color: white;
+    color: #757575;
+    border-radius: 5px;
+    padding: 18px 30px;
+    border: none;
+}
+
+footer h2 {
+    color: #181818;
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
 footer p {
-    text-align: center;
-    padding: 20px 0;
-    color: white;
-    background-color: black;
+    font-size: 1rem;
+    margin-bottom: 30px;
 }
