@@ -92,8 +92,15 @@ input[type="submit"] {
     font-weight: 700;
 }
 
-button a {
+.btn-1 a {
     color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+
+}
+
+.btn-2 a {
+    color: #FD6E0A;
     font-size: 1.25rem;
     font-weight: 700;
 
